@@ -1,0 +1,66 @@
+.zoho-stack {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 2rem 4rem;
+}
+
+.zoho-stack .title {
+	margin-top: 6rem;
+}
+
+.zoho-stack>div {
+	width: 50%;
+	padding: 1rem;
+}
+
+.zoho-stack p {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	line-height: 1.5rem;
+}
+
+.zoho-row {
+	display: flex;
+	gap: 1rem;
+	margin: 20px 0px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.zoho-grid {
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	font-family: 'Fugaz One', sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+	.zoho-stack {
+		padding: 1rem 2rem;
+		flex-direction: column-reverse;
+		gap: 1rem;
+	}
+
+	.zoho-stack>div {
+		width: 100%;
+		padding: 0.5rem;
+	}
+
+	.zoho-stack .title {
+		margin-top: 2rem;
+		text-align: center;
+	}
+
+	.zoho-stack p {
+		font-size: 1.1rem;
+		line-height: 1.5rem;
+	}
+
+	.zoho-row {
+		gap: 0.5rem;
+	}
+}

@@ -38,8 +38,14 @@
 	.hero-section {
 		font-size: 2rem;
 	}
+
 	.hero-section .name {
 		font-size: 4rem;
+	}
+
+	.floating-btn {
+		height: 50px;
+		width: 100px;
 	}
 
 	.bottom-bar {
